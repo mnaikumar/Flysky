@@ -1,0 +1,120 @@
+/* Dark Theme Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ddd;
+    background-color: #060642;
+}
+
+/* Header Styling */
+header {
+    background-color: #12127D;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    width: 120px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.contact-number {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
+
+.contact-number a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    background: #1e1e1e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    color: #FFD700;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 8px;
+}
+
+/* CTA Button */
+.cta-button {
+    display: inline-block;
+    background-color: #FFD700;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #ffc107;
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}

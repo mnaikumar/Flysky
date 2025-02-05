@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlySky Education</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            height: 60px;
+            margin-right: 15px;
+        }
+        main {
+            flex: 1;
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="FlySky Education Logo">
+        <h1>Welcome to FlySky Education</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Student Admissions in India</h2>
+            <img src="india-admissions.jpg" alt="Student Admissions in India">
+            <p>We help students secure admissions in top universities across India. Our experts provide guidance on selecting the right university, application process, and documentation.</p>
+            <ul>
+                <li>Assistance with entrance exams</li>
+                <li>College and course selection</li>
+                <li>Scholarship guidance</li>
+                <li>Application and visa support</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Abroad Education</h2>
+            <img src="abroad-education.jpg" alt="Abroad Education">
+            <p>We provide guidance and support for students looking to study abroad. Our services include selecting universities, preparing for exams, visa assistance, and accommodation support.</p>
+            <ul>
+                <li>University selection in USA, UK, Canada, Australia, and more</li>
+                <li>Preparation for IELTS, TOEFL, GRE, GMAT</li>
+                <li>Visa application assistance</li>
+                <li>Pre-departure and post-arrival support</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Why Choose Us?</h2>
+            <p>FlySky Education (Consultancy) has years of experience in helping students achieve their dream education. We offer personalized counseling and end-to-end support.</p>
+            <ul>
+                <li>Experienced counselors</li>
+                <li>Success-driven approach</li>
+                <li>Affordable consulting services</li>
+                <li>Wide network of universities</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 FlySky Education | Contact us at info@flyskyconsultancy.com</p>
+    </footer>
+</body>
+</html>
